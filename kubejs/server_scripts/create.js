@@ -1572,8 +1572,8 @@ function cuttingRecipes(event) {
 function hauntingRecipes(event) {
     // [Input string, Output string]
     [
-        ["2x techreborn:charcoal_dust", "techreborn:coal_dust"],
-        ["2x minecraft:charcoal", "minecraft:coal"],
+        ["techreborn:charcoal_dust", "techreborn:coal_dust"],
+        ["minecraft:charcoal", "minecraft:coal"],
         ["minecraft:sand", "minecraft:soul_sand"],
         ["minecraft:soul_sand", "minecraft:netherrack"],
     ].forEach((recipe) => {
