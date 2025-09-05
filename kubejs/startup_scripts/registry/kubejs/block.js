@@ -1,5 +1,5 @@
 (function kubeJSBlockRegistry() {
-  onEvent("block.registry", (event) => {
+  StartupEvents.registry('block', event => {
     event
       .create("kubejs:fragile_sheet_block", "basic")
       .material("stone")

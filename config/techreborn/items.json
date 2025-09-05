@@ -8,6 +8,10 @@
       "comment": "Energy Cost for Industrial Jackhammer",
       "value": 150
     },
+    "nanoSuitCapacity": {
+      "comment": "Nano Suit Energy Capacity",
+      "value": 1000000
+    },
     "basicJackhammerCharge": {
       "comment": "Energy Capacity for Basic Jackhammer",
       "value": 10000
@@ -40,6 +44,10 @@
       "comment": "Energy Capacity for Nano Saber",
       "value": 1000000
     },
+    "suitNightVisionCost": {
+      "comment": "Nano/Quantum Suit Night Vision Cost",
+      "value": 1
+    },
     "quantumSuitBreathingCost": {
       "comment": "Quantum Suit Breathing Cost",
       "value": 20
@@ -47,6 +55,10 @@
     "advancedJackhammerCharge": {
       "comment": "Energy Capacity for Advanced Jackhammer",
       "value": 100000
+    },
+    "nanoArmorEnergyCost": {
+      "comment": "Nano Suit Energy Cost",
+      "value": 100
     },
     "electricTreetapCost": {
       "comment": "Energy Cost for Electric Treetap",
@@ -112,6 +124,10 @@
       "comment": "Energy Capacity for Basic Drill",
       "value": 10000
     },
+    "nanoSuitFlightCost": {
+      "comment": "Nano Suit Flight Cost",
+      "value": 2
+    },
     "industrialJackhammerCharge": {
       "comment": "Energy Capacity for Industrial Jackhammer",
       "value": 1000000
@@ -131,6 +147,10 @@
     "rockCutterCost": {
       "comment": "Energy Cost for Rock Cutter",
       "value": 10
+    },
+    "nanoSuitNightVisionCost": {
+      "comment": "suitNightVisionCost Compatible with other old mods",
+      "value": 1
     },
     "advancedJackhammerCost": {
       "comment": "Energy Cost for Advanced Jackhammer",

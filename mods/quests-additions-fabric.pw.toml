@@ -1,13 +1,13 @@
-name = "Quests Additions"
-filename = "questsadditions-fabric-1.18.2-1.4.1.jar"
+name = "Quests Additions (Fabric)"
+filename = "questsadditions-fabric-1.20.1-1.4.6.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
 hash-format = "sha1"
-hash = "26abba4982aa79a2746a160ab3d8c447b40fa4ca"
+hash = "a15613625cccf31508230399cffa7674bdaaf74f"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4269973
+file-id = 5698979
 project-id = 580136

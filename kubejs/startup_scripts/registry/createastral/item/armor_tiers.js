@@ -1,5 +1,5 @@
 (function createAstralArmorTiersRegistry() {
-  onEvent("item.registry.armor_tiers", (event) => {
+ ItemEvents.armorTierRegistry(event => {
     // Slot indicies are [FEET, LEGS, BODY, HEAD]
     event.add("copperarmor", (tier) => {
       tier.durabilityMultiplier = 13; // Each slot will be multiplied with [13, 15, 16, 11]

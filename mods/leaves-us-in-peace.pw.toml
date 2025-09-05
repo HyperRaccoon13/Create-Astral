@@ -1,13 +1,13 @@
 name = "Leaves Us In Peace"
-filename = "leaves-us-in-peace-1.0.11+MC1.18.2.jar"
+filename = "leaves-us-in-peace-1.4.1+MC1.20-1.20.1.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
 hash-format = "sha1"
-hash = "d4d06fa5e1e9f0fef183159661357cad58486127"
+hash = "f9f769c5302182b8e015feb3c0ab9fef02abdf95"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3942707
+file-id = 5796739
 project-id = 565173

@@ -1,13 +1,13 @@
 name = "Searchlight (& Wall Lights) (Fabric)"
-filename = "searchlight-1.18-fabric-1.1.7.jar"
+filename = "searchlight-1.20-fabric-1.1.11.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
 hash-format = "sha1"
-hash = "fdd06c5b955a2e7bfcc09a939e0bcd124cecdc20"
+hash = "d21d0051ce6c9f9f981930bc153ace71dfa3b7cc"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3711673
+file-id = 4619326
 project-id = 496793

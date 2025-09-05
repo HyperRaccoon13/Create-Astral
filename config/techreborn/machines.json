@@ -1,4 +1,22 @@
 {
+  "elevator": {
+    "AllowElevatingThroughBlocks": {
+      "comment": "Allow elevating through blocks (i.e. non air)",
+      "value": true
+    },
+    "ElevatorMaxInput": {
+      "comment": "Elevator Max Input (Energy per tick)",
+      "value": 32
+    },
+    "ElevatorEnergyPerBlock": {
+      "comment": "Elevator Energy used per vertical block of transportation",
+      "value": 2
+    },
+    "ElevatorMaxEnergy": {
+      "comment": "Elevator Max Energy",
+      "value": 1000
+    }
+  },
   "lesu": {
     "LesuMaxEnergyPerBlock": {
       "comment": "LESU Max Energy Per Block",
@@ -61,34 +79,76 @@
       "value": 64
     }
   },
+  "launchpad": {
+    "LaunchpadMaxEnergy": {
+      "comment": "Launchpad Max Energy",
+      "value": 40000
+    },
+    "LaunchpadSpeedLow": {
+      "comment": "Launchpad Low Speed",
+      "value": 1.0
+    },
+    "LaunchpadEnergyExtreme": {
+      "comment": "Launchpad Extreme Energy",
+      "value": 20000
+    },
+    "LaunchpadSpeedExtreme": {
+      "comment": "Launchpad Extreme Speed",
+      "value": 10.0
+    },
+    "LaunchpadInterval": {
+      "comment": "Launchpad Launch Interval in Ticks \u003e 0",
+      "value": 100
+    },
+    "LaunchpadDefaultSelection": {
+      "comment": "Launchpad Default Selection (0-3 for Low-Extreme)",
+      "value": 0
+    },
+    "LaunchpadEnergyMedium": {
+      "comment": "Launchpad Medium Energy",
+      "value": 6000
+    },
+    "LaunchpadMaxInput": {
+      "comment": "Launchpad Max Input (Energy per tick)",
+      "value": 128
+    },
+    "LaunchpadSpeedHigh": {
+      "comment": "Launchpad High Speed",
+      "value": 5.0
+    },
+    "LaunchpadSpeedMedium": {
+      "comment": "Launchpad Medium Speed",
+      "value": 3.0
+    },
+    "LaunchpadEnergyLow": {
+      "comment": "Launchpad Low Energy",
+      "value": 1000
+    },
+    "LaunchpadEnergyHigh": {
+      "comment": "Launchpad High Energy",
+      "value": 10000
+    }
+  },
   "storage": {
-    "CrudeStorageUnitMaxStorage": {
-      "comment": "Maximum amount of items a Crude Storage Unit can store",
-      "value": 4096
+    "AdvancedStorageMaxStorage": {
+      "comment": "Maximum amount of items an Advanced Storage Unit can store",
+      "value": 32768
     },
     "BasicStorageUnitMaxStorage": {
       "comment": "Maximum amount of items a Basic Storage Unit can store",
       "value": 8192
     },
-    "AdvancedStorageMaxStorage": {
-      "comment": "Maximum amount of items an Advanced Storage Unit can store",
-      "value": 32768
+    "CrudeStorageUnitMaxStorage": {
+      "comment": "Maximum amount of items a Crude Storage Unit can store",
+      "value": 4096
     },
     "IndustrialStorageMaxStorage": {
       "comment": "Maximum amount of items an Industrial Storage Unit can store (Compat: \u003e\u003d 32768)",
       "value": 131072
     },
-    "QuantumStorageUnitMaxStorage": {
-      "comment": "Maximum amount of items a Quantum Storage Unit can store (Compat: \u003d\u003d MAX_VALUE)",
-      "value": 2147483647
-    },
     "BasicTankUnitCapacity": {
       "comment": "How much liquid a Basic Tank Unit can take (Value in buckets, 1000 Mb)",
       "value": 40
-    },
-    "AdvancedTankUnitMaxStorage": {
-      "comment": "How much liquid an Advanced Tank Unit can take (Value in buckets, 1000 Mb)",
-      "value": 160
     },
     "IndustrialTankUnitCapacity": {
       "comment": "How much liquid an Industrial Tank Unit can take (Value in buckets, 1000 Mb)",
@@ -97,6 +157,14 @@
     "QuantumTankUnitCapacity": {
       "comment": "How much liquid a Quantum Tank Unit can take (Value in buckets, 1000 Mb)(Compat: \u003d\u003d MAX_VALUE)",
       "value": 2147483
+    },
+    "QuantumStorageUnitMaxStorage": {
+      "comment": "Maximum amount of items a Quantum Storage Unit can store (Compat: \u003d\u003d MAX_VALUE)",
+      "value": 2147483647
+    },
+    "AdvancedTankUnitMaxStorage": {
+      "comment": "How much liquid an Advanced Tank Unit can take (Value in buckets, 1000 Mb)",
+      "value": 160
     }
   },
   "matter_fabricator": {
@@ -125,6 +193,34 @@
     "DistillationTowerMaxInput": {
       "comment": "Distillation Tower Max Input (Energy per tick)",
       "value": 196
+    }
+  },
+  "grinder": {
+    "GrinderInput": {
+      "comment": "Grinder Max Input (Energy per tick)",
+      "value": 32
+    },
+    "GrinderMaxEnergy": {
+      "comment": "Grinder Max Energy",
+      "value": 1000
+    }
+  },
+  "fishing_station": {
+    "FishingStationInterval": {
+      "comment": "Fishing Station Catch Interval in Ticks \u003e 0",
+      "value": 400
+    },
+    "FishingStationEnergyPerCatch": {
+      "comment": "How much energy the Fishing Station uses per catch",
+      "value": 500
+    },
+    "FishingStationMaxInput": {
+      "comment": "Fishing Station Max Input (Energy per tick)",
+      "value": 128
+    },
+    "FishingStationMaxEnergy": {
+      "comment": "Fishing Station Max Energy",
+      "value": 10000
     }
   },
   "compressor": {
@@ -159,6 +255,28 @@
     "ChargeBenchMaxOutput": {
       "comment": "Charge Bench Max Output (Energy per tick)",
       "value": 512
+    }
+  },
+  "pump": {
+    "PumpMaxInput": {
+      "comment": "Pump Max Input (Energy per tick)",
+      "value": 128
+    },
+    "PumpEnergyToCollect": {
+      "comment": "Base amount of Energy to collect a block of fluid",
+      "value": 1000
+    },
+    "PumpTicksToComplete": {
+      "comment": "How many ticks it takes to pump a source block.",
+      "value": 100
+    },
+    "PumpMaxEnergy": {
+      "comment": "Pump Max Energy",
+      "value": 40000
+    },
+    "PumpIterateOutwards": {
+      "comment": "If true then the pump will collect closest fluid and scan outwards",
+      "value": false
     }
   },
   "electric_furnace": {

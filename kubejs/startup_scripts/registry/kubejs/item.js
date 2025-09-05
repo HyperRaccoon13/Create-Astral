@@ -1,5 +1,5 @@
 (function kubeJSItemRegistry() {
-  onEvent("item.registry", (event) => {
+  StartupEvents.registry('item', event => {
     wineTransitionals(event);
   });
   /** @param {Registry.Item} event  */

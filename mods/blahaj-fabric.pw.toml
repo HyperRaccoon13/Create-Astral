@@ -1,13 +1,13 @@
 name = "Blahaj (Fabric)"
-filename = "blahaj-fabric-1.18-0.3.2.jar"
+filename = "blahaj-fabric-1.20.0-0.3.2.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
 hash-format = "sha1"
-hash = "dd4b96791fcc2b7bee3e568c88d721f6bfe8acb9"
+hash = "205a69e9f7bfd7cdbad89466d0c7f0876125c0f0"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4467186
+file-id = 4580836
 project-id = 790339

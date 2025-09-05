@@ -1,13 +1,13 @@
 name = "Ponder for KubeJS"
-filename = "ponderjs-fabric-1.18.2-1.1.9.jar"
+filename = "ponderjs-1.20.1-1.3.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a19516be15ec73f54467dc68689f1d8a091c291b"
+hash = "d0cd14a32136ae2a0b78c08d88d98d1ecf8859eb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4440444
+file-id = 5306374
 project-id = 622888

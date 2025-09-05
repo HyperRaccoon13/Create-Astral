@@ -1,5 +1,5 @@
 (function createAstralBlockRegistry() {
-  onEvent("block.registry", (event) => {
+  StartupEvents.registry('block', event => {
     event
       .create("createastral:sturdy_sheet_block")
       .material("lantern")

@@ -1,13 +1,13 @@
 name = "MoreJS"
-filename = "morejs-fabric-1.18.2-0.0.6.jar"
+filename = "morejs-fabric-1.20.1-0.10.1.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
 hash-format = "sha1"
-hash = "eab7c128c77ae2e33183b1584d76285931a4e188"
+hash = "40bc270199071f6176bd4d3fb5b5553638070332"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4318731
+file-id = 6542591
 project-id = 666198

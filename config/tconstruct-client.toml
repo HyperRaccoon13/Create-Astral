@@ -1,4 +1,3 @@
-
 #Client only settings
 [client]
 	#If true tools will show additional info in their tooltips
@@ -16,6 +15,9 @@
 	showModifiersInJEI = true
 	#If true, the game will log all material textures which do not exist in resource packs but can be added, can be helpful for moddevs or resourcepack makers
 	logMissingMaterialTextures = false
+	#If true, shows modifier IDs in advanced tooltips for tools and tool parts.
+	#They are more intrusive than most advanced tooltip content, so this option is provided in case some mod made poor design decisions and put essential gameplay info in tooltips or for pack makers who do not need modifier info.
+	modifiersIDsInAdvancedTooltips = true
 
 	#Settings related to modifiers
 	[client.modifiers]
@@ -43,6 +45,3 @@
 	[client.compatibility]
 		#If true and Inventory Tabs is loaded, TConstruct table tabs will be hidden so Inventory Tabs tabs can be used.
 		inventoryTabs = true
-		#Disables the REI deprecation warning when joining a world.
-		disableREIMessage = true
-

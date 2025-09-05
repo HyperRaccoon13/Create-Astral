@@ -1,5 +1,5 @@
 (function createAstralItemRegistry() {
-  onEvent("item.registry", (event) => {
+  StartupEvents.registry('item', event => {
     event.create("createastral:crushed_raw_desh");
     event.create("createastral:crushed_raw_ostrum");
     event.create("createastral:crushed_raw_calorite");
@@ -30,7 +30,7 @@
       .create("createastral:filled_golden_bowl", "create:sequenced_assembly")
       .displayName("Filled Golden Bowl")
       .food((food) => {
-        food.hunger(0).saturation(0).effect("drinkbeer:drunk", 3000, 0, 1).alwaysEdible();
+        food.hunger(0).saturation(0).effect("nausea", 3000, 0, 1).alwaysEdible();
       });
     event
       .create("createastral:seitan")

@@ -1,0 +1,13 @@
+name = "CustomMachinery (Fork)"
+filename = "CustomMachinery-fabric-1.20.1-0.10.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f30f95cab5eaa5da36a7d4af56865d0fb04433cc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6507733
+project-id = 1058446

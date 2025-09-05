@@ -1,5 +1,5 @@
 (function yttrBlockRegistry() {
-  onEvent("block.registry", (event) => {
+  StartupEvents.registry('block', event => {
     event
       .create("yttr:polished_scorched_obsidian_holster_alive", "basic")
       .textureAll("yttr:block/polished_scorched_obsidian_holster_alive")

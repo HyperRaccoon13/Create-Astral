@@ -1,13 +1,13 @@
 name = "Packed Inventory"
-filename = "packed-inventory-0.2.2+1.18.2.jar"
+filename = "packed-inventory-0.3.0+1.20.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
 hash-format = "sha1"
-hash = "ad1b2a6c2885f8831ac5b32d795b99ca3c879854"
+hash = "2c53e91f841be8f6a2b229df61ebe3f08aa56c67"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3916749
+file-id = 4999368
 project-id = 641196

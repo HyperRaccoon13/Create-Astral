@@ -1,13 +1,13 @@
 name = "Polaroid Camera"
-filename = "polaroidcamera-1.2.9.jar"
+filename = "polaroidcamera-1.6.4.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
 hash-format = "sha1"
-hash = "cc201b75aa0d600da689126f0940d97bd7fe8a05"
+hash = "29f2dde3b8851ce2da9a60e201e4a4e445323d91"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3823748
+file-id = 5070521
 project-id = 620906

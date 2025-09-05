@@ -1,10 +1,1 @@
-{
-  "enabled": true,
-  "defaultPingColour": 65280,
-  "levelOnePingColour": 16776960,
-  "levelTwoPingColour": 16750080,
-  "levelThreePingColour": 16737280,
-  "levelFourPingColour": 16711680,
-  "levelFivePingColour": 16711680,
-  "smallPing": true
-}
+{"playerList":true,"serverList":false,"smallPing":true,"defaultPingColour":-16711936,"levelOnePingColour":-256,"levelTwoPingColour":-27136,"levelThreePingColour":-39936,"levelFourPingColour":-65536,"levelFivePingColour":-65536,"defaultPingThreshold":150,"levelOnePingThreshold":300,"levelTwoPingThreshold":600,"levelThreePingThreshold":1000}

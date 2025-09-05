@@ -1,13 +1,13 @@
 name = "Subterrestrial"
-filename = "subterrestrial-fabric-1.18.2-2.0.0.jar"
+filename = "subterrestrial-fabric-1.20-2.2.0.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
 hash-format = "sha1"
-hash = "932265947f7e2a9a3b333b6adb8269d517beb420"
+hash = "bdf1f8fa67ebf9c37503e2acba98dbd5b1e5b924"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4125912
+file-id = 4574889
 project-id = 575588

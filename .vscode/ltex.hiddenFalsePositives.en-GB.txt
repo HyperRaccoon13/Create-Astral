@@ -1,4 +1,0 @@
-{"rule":"PREPOSITION_VERB","sentence":"^\\QDev GitHub repository for the Create: Astral modpack\\E$"}
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QDownload the packwiz installer jar from packwiz-installer-bootstrap, and put it into the \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q folder in the instance.\\E$"}
-{"rule":"AGREEMENT_SENT_START","sentence":"^\\QInterfaces\nInterfaces declare the shape of an object.\\E$"}
-{"rule":"EN_A_VS_AN","sentence":"^\\QLanguage keys, or lang keys, are a way of referring to a translation present in an \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q file within the modpack's resources.\\E$"}

@@ -1,5 +1,5 @@
 (function astralSignalsItemRegistry() {
-  onEvent("item.registry", (event) => {
+  StartupEvents.registry('item', event => {
     event.create("astralsignals:ancient_receiver").rarity("uncommon"),
       event.create("astralsignals:parallel_processor").rarity("rare"),
       event.create("astralsignals:microphysical_probe").rarity("epic"),

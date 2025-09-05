@@ -1,692 +1,594 @@
 {
-	id: "6E4FDDEB475CA8A6"
-	group: ""
-	order_index: 11
-	filename: "the_trophy_room"
-	title: "{ftbquests.chapter.the_trophy_room.title}"
-	icon: "yttr:ultrapure_gold"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_trophy_room"
+	group: ""
+	icon: "yttr:ultrapure_gold"
+	id: "6E4FDDEB475CA8A6"
 	images: [
 		{
+			height: 10.0d
+			image: "minecraft:textures/map/map_background.png"
+			rotation: 0.0d
+			width: 10.0d
 			x: -0.5d
 			y: 0.5d
-			width: 10.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "minecraft:textures/map/map_background.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_t.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -4.0d
 			y: -6.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_t.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_h.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -3.0d
 			y: -6.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_h.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_e.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -2.0d
 			y: -6.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_e.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_f.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 0.0d
 			y: -6.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_f.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_i.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 1.0d
 			y: -6.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_i.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_n.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 1.5d
 			y: -6.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_n.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_a.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 2.5d
 			y: -6.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_a.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_l.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 3.5d
 			y: -6.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_l.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_t.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -3.5d
 			y: -5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_t.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_r.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -2.5d
 			y: -5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_r.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_e.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -1.5d
 			y: -5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_e.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_a.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -0.5d
 			y: -5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_a.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_s.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 0.5d
 			y: -5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_s.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_u.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 1.0d
 			y: -5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_u.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_r.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 2.0d
 			y: -5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_r.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_e.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 3.0d
 			y: -5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "minecraft:textures/particle/sga_e.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
-			x: -0.5d
-			y: 0.5d
-			width: 2.0d
 			height: 2.0d
-			rotation: 0.0d
 			image: "ftbquests:textures/shapes/hexagon/outline.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
+			rotation: 0.0d
+			width: 2.0d
 			x: -0.5d
 			y: 0.5d
-			width: 20.0d
-			height: 20.0d
-			rotation: 0.0d
-			image: "ad_astra:textures/sky/milky_way.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-			dependency: "0938969824F4D4CB"
 		}
 		{
+			dependency: "0938969824F4D4CB"
+			height: 20.0d
+			image: "ad_astra:textures/sky/milky_way.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/sky/earth.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -0.5d
 			y: -4.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "ad_astra:textures/sky/earth.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "ad_astra:textures/sky/moon.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: 4.0d
 			y: 0.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "ad_astra:textures/sky/moon.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "ad_astra:textures/sky/mars.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -0.5d
 			y: 5.0d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "ad_astra:textures/sky/mars.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			height: 1.0d
+			image: "ad_astra:textures/sky/mercury.png"
+			rotation: 0.0d
+			width: 1.0d
 			x: -5.0d
 			y: 0.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "ad_astra:textures/sky/mercury.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 	]
+	order_index: 11
+	quest_links: [ ]
 	quests: [
 		{
-			title: "{ftbquests.chapter.the_trophy_room.quests0.title}"
-			x: 3.0d
-			y: -2.0d
-			description: ["{ftbquests.chapter.the_trophy_room.quests0.description}"]
 			dependencies: ["0938969824F4D4CB"]
-			hide: true
+			description: ["{ftbquests.chapter.the_trophy_room.quests0.description}"]
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			id: "56C5627DDB62C6E5"
-			tasks: [
-				{
-					id: "1F662B6475E4B78B"
-					type: "item"
-					item: "create:veridium"
-					count: 1024L
-				}
-				{
-					id: "10152AE61DA21F1B"
-					type: "item"
-					item: "create:scorchia"
-					count: 1024L
-				}
-				{
-					id: "00EE8C12EF38B25A"
-					type: "item"
-					item: "create:scoria"
-					count: 1024L
-				}
-				{
-					id: "746149797168C653"
-					type: "item"
-					item: "create:ochrum"
-					count: 1024L
-				}
-				{
-					id: "180C350A992A4D7C"
-					type: "item"
-					item: "create:limestone"
-					count: 1024L
-				}
-				{
-					id: "2E76ADBCE501C809"
-					type: "item"
-					item: "create:crimsite"
-					count: 1024L
-				}
-				{
-					id: "5C5E19A3A2642EFD"
-					type: "item"
-					item: "create:asurine"
-					count: 1024L
-				}
-			]
 			rewards: [{
 				id: "5EBE4E6AAD4FA946"
-				type: "item"
 				item: {
+					Count: 1
 					id: "tconstruct:creative_slot"
-					Count: 1b
 					tag: {
 						slot: "souls"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [
+				{
+					count: 1024L
+					id: "1F662B6475E4B78B"
+					item: "create:veridium"
+					type: "item"
+				}
+				{
+					count: 1024L
+					id: "10152AE61DA21F1B"
+					item: "create:scorchia"
+					type: "item"
+				}
+				{
+					count: 1024L
+					id: "00EE8C12EF38B25A"
+					item: "create:scoria"
+					type: "item"
+				}
+				{
+					count: 1024L
+					id: "746149797168C653"
+					item: "create:ochrum"
+					type: "item"
+				}
+				{
+					count: 1024L
+					id: "180C350A992A4D7C"
+					item: "create:limestone"
+					type: "item"
+				}
+				{
+					count: 1024L
+					id: "2E76ADBCE501C809"
+					item: "create:crimsite"
+					type: "item"
+				}
+				{
+					count: 1024L
+					id: "5C5E19A3A2642EFD"
+					item: "create:asurine"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_trophy_room.quests0.title}"
+			x: 3.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["0938969824F4D4CB"]
+			description: ["{ftbquests.chapter.the_trophy_room.quests1.description}"]
+			hide_until_deps_visible: true
+			id: "5E9F6A0BF9C19736"
+			rewards: [{
+				id: "512F5A5D2ED5C68C"
+				item: "createastral:logo"
+				type: "item"
+			}]
+			tasks: [{
+				id: "108E346B5F9E1E83"
+				item: "astraladditions:disc_astral_lakes_remix"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.the_trophy_room.quests1.title}"
 			x: 3.5d
 			y: -0.5d
-			description: ["{ftbquests.chapter.the_trophy_room.quests1.description}"]
-			dependencies: ["0938969824F4D4CB"]
-			hide: true
-			id: "5E9F6A0BF9C19736"
-			tasks: [{
-				id: "108E346B5F9E1E83"
-				type: "item"
-				item: "astraladditions:disc_astral_lakes_remix"
-			}]
-			rewards: [{
-				id: "512F5A5D2ED5C68C"
-				type: "item"
-				item: "createastral:logo"
-			}]
 		}
 		{
-			title: "{ftbquests.chapter.the_trophy_room.quests2.title}"
-			x: 3.5d
-			y: 1.5d
-			description: ["{ftbquests.chapter.the_trophy_room.quests2.description}"]
 			dependencies: ["0938969824F4D4CB"]
-			hide: true
+			description: ["{ftbquests.chapter.the_trophy_room.quests2.description}"]
+			hide_until_deps_visible: true
 			id: "1E0623DDA08556BA"
-			tasks: [{
-				id: "7CE193024FB74F7A"
-				type: "item"
-				item: "tconstruct:pig_iron_block"
-				count: 64L
-			}]
 			rewards: [{
 				id: "589ADE9778F55289"
-				type: "item"
 				item: {
+					Count: 1
 					id: "tconstruct:creative_slot"
-					Count: 1b
 					tag: {
 						slot: "defense"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 64L
+				id: "7CE193024FB74F7A"
+				item: "tconstruct:pig_iron_block"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_trophy_room.quests2.title}"
+			x: 3.5d
+			y: 1.5d
 		}
 		{
-			title: "{ftbquests.chapter.the_trophy_room.quests3.title}"
-			x: 3.0d
-			y: 3.0d
-			description: ["{ftbquests.chapter.the_trophy_room.quests3.description}"]
 			dependencies: ["0938969824F4D4CB"]
-			hide: true
+			description: ["{ftbquests.chapter.the_trophy_room.quests3.description}"]
+			hide_until_deps_visible: true
 			id: "6727F3852FC3323C"
-			tasks: [{
-				id: "15E65CBF22539E31"
-				type: "advancement"
-				advancement: "farmersdelight:main/master_chef"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "7330AA55AA6F602B"
-				type: "item"
 				item: {
+					Count: 1
 					id: "yttr:spatula"
-					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "15E65CBF22539E31"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.the_trophy_room.quests3.title}"
+			x: 3.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["0938969824F4D4CB"]
+			description: ["{ftbquests.chapter.the_trophy_room.quests4.description}"]
+			hide_until_deps_visible: true
+			id: "69915811D14AB0BD"
+			rewards: [{
+				id: "7301652C7D6D1885"
+				item: "doodads:bendy_straw"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "45F7C0CC5F8674FA"
+				item: "estrogen:crystal_estrogen_pill"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.the_trophy_room.quests4.title}"
 			x: 2.0d
 			y: 4.0d
-			description: ["{ftbquests.chapter.the_trophy_room.quests4.description}"]
-			dependencies: ["0938969824F4D4CB"]
-			hide: true
-			id: "69915811D14AB0BD"
-			tasks: [{
-				id: "45F7C0CC5F8674FA"
-				type: "item"
-				item: "estrogen:crystal_estrogen_pill"
-				count: 256L
-			}]
-			rewards: [{
-				id: "7301652C7D6D1885"
-				type: "item"
-				item: "doodads:bendy_straw"
-			}]
 		}
 		{
-			title: "{ftbquests.chapter.the_trophy_room.quests5.title}"
-			x: 0.5d
-			y: 4.5d
-			description: ["{ftbquests.chapter.the_trophy_room.quests5.description}"]
 			dependencies: ["0938969824F4D4CB"]
-			hide: true
+			description: ["{ftbquests.chapter.the_trophy_room.quests5.description}"]
+			hide_until_deps_visible: true
 			id: "0A141ADE11568F1E"
-			tasks: [{
-				id: "43B5414428A95403"
-				type: "item"
-				item: "yttr:root_of_continuity"
-				count: 256L
-			}]
 			rewards: [{
 				id: "4C27D9381718D749"
-				type: "item"
 				item: {
+					Count: 1
 					id: "tconstruct:creative_slot"
-					Count: 1b
 					tag: {
 						slot: "abilities"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 256L
+				id: "43B5414428A95403"
+				item: "yttr:root_of_continuity"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_trophy_room.quests5.title}"
+			x: 0.5d
+			y: 4.5d
 		}
 		{
+			dependencies: ["0938969824F4D4CB"]
+			description: ["{ftbquests.chapter.the_trophy_room.quests6.description}"]
+			hide_until_deps_visible: true
+			id: "36BC1547ABFE2C05"
+			rewards: [{
+				id: "53E78BE47D4E33B6"
+				item: "minecraft:knowledge_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22B41618D457A687"
+				points: false
+				type: "xp"
+				value: 210L
+			}]
 			title: "{ftbquests.chapter.the_trophy_room.quests6.title}"
 			x: -1.5d
 			y: 4.5d
-			description: ["{ftbquests.chapter.the_trophy_room.quests6.description}"]
-			dependencies: ["0938969824F4D4CB"]
-			hide: true
-			id: "36BC1547ABFE2C05"
-			tasks: [{
-				id: "22B41618D457A687"
-				type: "xp"
-				value: 210L
-				points: false
-			}]
-			rewards: [{
-				id: "53E78BE47D4E33B6"
-				type: "item"
-				item: "minecraft:knowledge_book"
-			}]
 		}
 		{
+			dependencies: ["0938969824F4D4CB"]
+			description: ["{ftbquests.chapter.the_trophy_room.quests7.description}"]
+			hide_until_deps_visible: true
+			id: "1847D57138A4D806"
+			rewards: [{
+				id: "37352E1E4AC29880"
+				item: "createbigcannons:traffic_cone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "15FA43E0E222A043"
+					item: {
+						Count: 1
+						id: "createbigcannons:ap_autocannon_round"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "601662752F689BC1"
+					item: {
+						Count: 1
+						id: "createbigcannons:flak_autocannon_round"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "31A7CF3B51685304"
+					item: {
+						Count: 1
+						id: "createbigcannons:machine_gun_round"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6003A513D163D13A"
+					item: "createbigcannons:solid_shot"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2A6891EA2C9B913D"
+					item: "createbigcannons:he_shell"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0436C0729604DF13"
+					item: "createbigcannons:shrapnel_shell"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2D7CE8509E0C1A3E"
+					item: "createbigcannons:ap_shot"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "5F4C2018CDB9BD2D"
+					item: "createbigcannons:ap_shell"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4F03BD203FAB4D6B"
+					item: "createbigcannons:fluid_shell"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "41F176786D8D1396"
+					item: "createbigcannons:smoke_shell"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "76EBAD358E9780AA"
+					item: "createbigcannons:bag_of_grapeshot"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "35CD3AE656D8CD85"
+					item: "createbigcannons:mortar_stone"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7222604B3DFAB271"
+					item: "createbigcannons:drop_mortar_shell"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.the_trophy_room.quests7.title}"
 			x: -3.0d
 			y: 4.0d
-			description: ["{ftbquests.chapter.the_trophy_room.quests7.description}"]
-			dependencies: ["0938969824F4D4CB"]
-			hide: true
-			id: "1847D57138A4D806"
-			tasks: [
-				{
-					id: "15FA43E0E222A043"
-					type: "item"
-					item: {
-						id: "createbigcannons:ap_autocannon_round"
-						Count: 1b
-						tag: { }
-					}
-					count: 64L
-				}
-				{
-					id: "601662752F689BC1"
-					type: "item"
-					item: {
-						id: "createbigcannons:flak_autocannon_round"
-						Count: 1b
-						tag: { }
-					}
-					count: 64L
-				}
-				{
-					id: "31A7CF3B51685304"
-					type: "item"
-					item: {
-						id: "createbigcannons:machine_gun_round"
-						Count: 1b
-						tag: { }
-					}
-					count: 64L
-				}
-				{
-					id: "6003A513D163D13A"
-					type: "item"
-					item: "createbigcannons:solid_shot"
-					count: 64L
-				}
-				{
-					id: "2A6891EA2C9B913D"
-					type: "item"
-					item: "createbigcannons:he_shell"
-					count: 64L
-				}
-				{
-					id: "0436C0729604DF13"
-					type: "item"
-					item: "createbigcannons:shrapnel_shell"
-					count: 64L
-				}
-				{
-					id: "2D7CE8509E0C1A3E"
-					type: "item"
-					item: "createbigcannons:ap_shot"
-					count: 64L
-				}
-				{
-					id: "5F4C2018CDB9BD2D"
-					type: "item"
-					item: "createbigcannons:ap_shell"
-					count: 64L
-				}
-				{
-					id: "4F03BD203FAB4D6B"
-					type: "item"
-					item: "createbigcannons:fluid_shell"
-					count: 64L
-				}
-				{
-					id: "41F176786D8D1396"
-					type: "item"
-					item: "createbigcannons:smoke_shell"
-					count: 64L
-				}
-				{
-					id: "76EBAD358E9780AA"
-					type: "item"
-					item: "createbigcannons:bag_of_grapeshot"
-					count: 64L
-				}
-				{
-					id: "35CD3AE656D8CD85"
-					type: "item"
-					item: "createbigcannons:mortar_stone"
-					count: 64L
-				}
-				{
-					id: "7222604B3DFAB271"
-					type: "item"
-					item: "createbigcannons:drop_mortar_shell"
-					count: 64L
-				}
-			]
-			rewards: [{
-				id: "37352E1E4AC29880"
-				type: "item"
-				item: "createbigcannons:traffic_cone"
-			}]
 		}
 		{
-			title: "{ftbquests.chapter.the_trophy_room.quests8.title}"
-			x: -4.0d
-			y: 3.0d
-			description: ["{ftbquests.chapter.the_trophy_room.quests8.description}"]
 			dependencies: ["0938969824F4D4CB"]
-			hide: true
+			description: ["{ftbquests.chapter.the_trophy_room.quests8.description}"]
+			hide_until_deps_visible: true
 			id: "6F2EE9291E961AEE"
-			tasks: [{
-				id: "51E9B59AEB7D5E51"
-				type: "item"
-				item: "createastral:subatomic_ingot"
-				count: 512L
-			}]
 			rewards: [{
 				id: "6A6413FE63B230F5"
-				type: "item"
 				item: {
+					Count: 1
 					id: "tconstruct:creative_slot"
-					Count: 1b
 					tag: {
 						slot: "upgrades"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 512L
+				id: "51E9B59AEB7D5E51"
+				item: "createastral:subatomic_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_trophy_room.quests8.title}"
+			x: -4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["0938969824F4D4CB"]
+			description: ["{ftbquests.chapter.the_trophy_room.quests9.description}"]
+			hide_until_deps_visible: true
+			id: "38E17A6C19D35584"
+			rewards: [{
+				id: "4A66702D078A2F6D"
+				item: "yttr:giant_cobblestone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "138D971F11B540A2"
+				item: "compressor:octuple_compressed_cobblestone"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.the_trophy_room.quests9.title}"
 			x: -4.5d
 			y: 1.5d
-			description: ["{ftbquests.chapter.the_trophy_room.quests9.description}"]
-			dependencies: ["0938969824F4D4CB"]
-			hide: true
-			id: "38E17A6C19D35584"
-			tasks: [{
-				id: "138D971F11B540A2"
-				type: "item"
-				item: "compressor:octuple_compressed_cobblestone"
-			}]
-			rewards: [{
-				id: "4A66702D078A2F6D"
-				type: "item"
-				item: "yttr:giant_cobblestone"
-			}]
 		}
 		{
+			dependencies: ["0938969824F4D4CB"]
+			description: ["{ftbquests.chapter.the_trophy_room.quests10.description}"]
+			hide_until_deps_visible: true
+			id: "477C2D5CA5F8F5C2"
+			rewards: [{
+				id: "44FF6F2F7E172B84"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "31EAC2B25F4A968F"
+				item: "yttr:ultrapure_netherite"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.the_trophy_room.quests10.title}"
 			x: -4.5d
 			y: -0.5d
-			description: ["{ftbquests.chapter.the_trophy_room.quests10.description}"]
-			dependencies: ["0938969824F4D4CB"]
-			hide: true
-			id: "477C2D5CA5F8F5C2"
-			tasks: [{
-				id: "31EAC2B25F4A968F"
-				type: "item"
-				item: "yttr:ultrapure_netherite"
-				count: 256L
-			}]
-			rewards: [{
-				id: "44FF6F2F7E172B84"
-				type: "item"
-				item: "immersive_aircraft:nether_engine"
-			}]
 		}
 		{
+			dependencies: ["0938969824F4D4CB"]
+			description: ["{ftbquests.chapter.the_trophy_room.quests11.description}"]
+			hide_until_deps_visible: true
+			id: "2E145505F5721C4F"
+			rewards: [{
+				id: "1BF5E74A70172AE3"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "36DC77FB2187411C"
+				type: "dimension"
+			}]
 			title: "{ftbquests.chapter.the_trophy_room.quests11.title}"
 			x: -4.0d
 			y: -2.0d
-			description: ["{ftbquests.chapter.the_trophy_room.quests11.description}"]
-			dependencies: ["0938969824F4D4CB"]
-			hide: true
-			id: "2E145505F5721C4F"
-			tasks: [{
-				id: "36DC77FB2187411C"
-				type: "dimension"
-				icon: "minecraft:end_portal_frame"
-				dimension: "minecraft:the_end"
-			}]
-			rewards: [{
-				id: "1BF5E74A70172AE3"
-				type: "item"
-				item: "minecraft:dragon_egg"
-			}]
 		}
 		{
-			title: "{ftbquests.chapter.the_trophy_room.quests12.title}"
-			x: -0.5d
-			y: 0.5d
-			subtitle: "{ftbquests.chapter.the_trophy_room.quests12.subtitle}"
-			description: ["{ftbquests.chapter.the_trophy_room.quests12.description}"]
-			hide_dependency_lines: true
 			dependencies: [
 				"36BC1547ABFE2C05"
 				"0A141ADE11568F1E"
@@ -701,18 +603,24 @@
 				"56C5627DDB62C6E5"
 				"6F2EE9291E961AEE"
 			]
+			description: ["{ftbquests.chapter.the_trophy_room.quests12.description}"]
+			hide_dependency_lines: true
 			id: "5C59106DF5771CE2"
-			tasks: [{
-				id: "47C02E9DDC6692C7"
-				type: "structure"
-				structure: "astralrails:dogstatue"
-			}]
 			rewards: [{
 				id: "72E8CFF935C36AC1"
-				type: "item"
 				item: "blahaj:bread"
+				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.the_trophy_room.quests12.subtitle}"
+			tasks: [{
+				id: "47C02E9DDC6692C7"
+				structure: "astralrails:dogstatue"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.the_trophy_room.quests12.title}"
+			x: -0.5d
+			y: 0.5d
 		}
 	]
-	quest_links: [ ]
+	title: "{ftbquests.chapter.the_trophy_room.title}"
 }

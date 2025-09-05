@@ -1,5 +1,5 @@
 (function astralFoodsItemRegistry() {
-  onEvent("item.registry", (event) => {
+  StartupEvents.registry('item', event => {
     //Astral Foods
     event
       .create("astralfoods:quantum_bites")
@@ -165,7 +165,7 @@
         food.hunger(16).saturation(1.2).effect("resistance", 600, 1, 1).alwaysEdible();
       });
   });
-  onEvent("fluid.registry", (event) => {
+  StartupEvents.registry("fluid", event => {
     event
       .create("astralfoods:cream")
       .thickTexture(0xfeedbd)
@@ -174,4 +174,4 @@
       .flowingTexture("tconstruct:block/fluid/molten/flowing")
       .displayName("Cream");
   });
-})();
+})()

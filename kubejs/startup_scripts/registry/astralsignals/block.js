@@ -1,5 +1,5 @@
 (function astralSignalsBlockRegistry() {
-  onEvent("block.registry", (event) => {
+  StartupEvents.registry('block', event => {
     // VotV Reference??!!
     // This file is separate because the block registry wouldn't work for whatever stupid reason i hate kubejs so much
     // What am i saying i cant stay mad at you kubey :3

@@ -1,5 +1,5 @@
 (function definedsBlocksBlockRegistry() {
-  onEvent("block.registry", (event) => {
+  StartupEvents.registry('block', event => {
     event
       .create("definedsblocks:undefined_block")
       .material("bone")

@@ -1,13 +1,13 @@
 name = "Datapack Portals"
-filename = "datapackportals-1.1.1-1.18.jar"
+filename = "datapackportals-1.2.3-1.20.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
 hash-format = "sha1"
-hash = "7afd326c3d4170d4c6a71548b0245c29e2379aad"
+hash = "eca64d8dea9d47deb85889b11436ac0d171d1944"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3693655
+file-id = 4590550
 project-id = 423140

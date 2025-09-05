@@ -1,5 +1,5 @@
 (function doodadsBlockRegistry() {
-  onEvent("block.registry", (event) => {
+  StartupEvents.registry('block', event => {
     event
       .create("doodads:asphalt_slab", "slab")
       .material("stone")

@@ -1,5 +1,5 @@
 (function createAstralToolTiersRegistry() {
-  onEvent("item.registry.tool_tiers", (event) => {
+  ItemEvents.toolTierRegistry(event => {
     event.add("copper", (tier) => {
       tier.uses = 210;
       tier.speed = 5.0;

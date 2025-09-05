@@ -1,6 +1,6 @@
 (function kubeJSFluidRegistry() {
   //? REGISTERING CUSTOM FLUIDS
-  onEvent("fluid.registry", (event) => {
+  StartupEvents.registry("fluid", event=> {
     liquidFoodGen(event);
     event
       .create("molten_calorite")

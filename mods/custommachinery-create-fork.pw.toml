@@ -1,0 +1,13 @@
+name = "CustomMachinery Create (Fork)"
+filename = "CustomMachineryCreate-fabric-1.20.1-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a55c6731302167eeb52e643031762e53b9453dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5757776
+project-id = 1109533
